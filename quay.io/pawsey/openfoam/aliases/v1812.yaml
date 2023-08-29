@@ -9,15 +9,12 @@ aliases:
   MPPICInterFoam: MPPICInterFoam
   PDRFoam: PDRFoam
   PDRMesh: PDRMesh
-  PDRblockMesh: PDRblockMesh
-  PDRsetFields: PDRsetFields
   SRFPimpleFoam: SRFPimpleFoam
   SRFSimpleFoam: SRFSimpleFoam
   XiDyMFoam: XiDyMFoam
   XiEngineFoam: XiEngineFoam
   XiFoam: XiFoam
   adiabaticFlameT: adiabaticFlameT
-  adjointOptimisationFoam: adjointOptimisationFoam
   adjointShapeOptimizationFoam: adjointShapeOptimizationFoam
   ansysToFoam: ansysToFoam
   applyBoundaryLayer: applyBoundaryLayer
@@ -43,7 +40,6 @@ aliases:
   chemkinToFoam: chemkinToFoam
   chtMultiRegionFoam: chtMultiRegionFoam
   chtMultiRegionSimpleFoam: chtMultiRegionSimpleFoam
-  chtMultiRegionTwoPhaseEulerFoam: chtMultiRegionTwoPhaseEulerFoam
   coalChemistryFoam: coalChemistryFoam
   coldEngineFoam: coldEngineFoam
   collapseEdges: collapseEdges
@@ -52,14 +48,12 @@ aliases:
   compressibleInterFilmFoam: compressibleInterFilmFoam
   compressibleInterFoam: compressibleInterFoam
   compressibleMultiphaseInterFoam: compressibleMultiphaseInterFoam
-  computeSensitivities: computeSensitivities
   copySurfaceParts: copySurfaceParts
   createBaffles: createBaffles
   createBoxTurb: createBoxTurb
   createExternalCoupledPatchGeometry: createExternalCoupledPatchGeometry
   createPatch: createPatch
   createZeroDirectory: createZeroDirectory
-  cumulativeDisplacement: cumulativeDisplacement
   datToFoam: datToFoam
   decomposePar: decomposePar
   deformedGeom: deformedGeom
@@ -154,7 +148,6 @@ aliases:
   nonNewtonianIcoFoam: nonNewtonianIcoFoam
   objToVTK: objToVTK
   orientFaceZone: orientFaceZone
-  overBuoyantPimpleDyMFoam: overBuoyantPimpleDyMFoam
   overInterDyMFoam: overInterDyMFoam
   overLaplacianDyMFoam: overLaplacianDyMFoam
   overPimpleDyMFoam: overPimpleDyMFoam
@@ -180,7 +173,6 @@ aliases:
   preparePar: preparePar
   profilingSummary: profilingSummary
   reactingFoam: reactingFoam
-  reactingHeterogenousParcelFoam: reactingHeterogenousParcelFoam
   reactingMultiphaseEulerFoam: reactingMultiphaseEulerFoam
   reactingParcelFoam: reactingParcelFoam
   reactingTwoPhaseEulerFoam: reactingTwoPhaseEulerFoam
@@ -209,8 +201,6 @@ aliases:
   scaleSurfaceMesh: scaleSurfaceMesh
   selectCells: selectCells
   setAlphaField: setAlphaField
-  setExprBoundaryFields: setExprBoundaryFields
-  setExprFields: setExprFields
   setFields: setFields
   setSet: setSet
   setsToZones: setsToZones
@@ -257,9 +247,9 @@ aliases:
   surfaceLambdaMuSmooth: surfaceLambdaMuSmooth
   surfaceMeshConvert: surfaceMeshConvert
   surfaceMeshExport: surfaceMeshExport
-  surfaceMeshExtract: surfaceMeshExtract
   surfaceMeshImport: surfaceMeshImport
   surfaceMeshInfo: surfaceMeshInfo
+  surfaceMeshTriangulate: surfaceMeshTriangulate
   surfaceOrient: surfaceOrient
   surfacePatch: surfacePatch
   surfacePointMerge: surfacePointMerge
@@ -286,7 +276,5 @@ aliases:
   viewFactorsGen: viewFactorsGen
   vtkUnstructuredToFoam: vtkUnstructuredToFoam
   wallFunctionTable: wallFunctionTable
-  writeActiveDesignVariables: writeActiveDesignVariables
   writeMeshObj: writeMeshObj
-  writeMorpherCPs: writeMorpherCPs
   zipUpMesh: zipUpMesh
