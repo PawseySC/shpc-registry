@@ -1,0 +1,12 @@
+docker: catgumag/alphafold
+url: https://hub.docker.com/r/catgumag/alphafold
+maintainer: '@sarahbeecroft'
+description: CPU only version of AlphaFold, which is an AI program developed by DeepMind which performs predictions of protein structure.
+latest:
+  2.3.0: sha256:a88cfe1c596413181184a5a9f4643e065925d9a789cd31aa878d527a4749cb1e
+tags:
+    2.3.0: sha256:a88cfe1c596413181184a5a9f4643e065925d9a789cd31aa878d527a4749cb1e
+aliases:
+- name: alphafold
+  command: bash /app/run_alphafold.sh
+  singularity_options: -B /scratch/references/alphafold_feb2024/databases
