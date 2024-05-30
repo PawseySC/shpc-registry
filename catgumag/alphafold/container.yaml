@@ -5,7 +5,7 @@ description: CPU only version of AlphaFold, which is an AI program developed by 
 latest:
   2.3.0: sha256:a88cfe1c596413181184a5a9f4643e065925d9a789cd31aa878d527a4749cb1e
 tags:
-    2.3.0: sha256:a88cfe1c596413181184a5a9f4643e065925d9a789cd31aa878d527a4749cb1e
+  2.3.0: sha256:a88cfe1c596413181184a5a9f4643e065925d9a789cd31aa878d527a4749cb1e
 aliases:
 - name: alphafold
   command: bash /app/run_alphafold.sh
