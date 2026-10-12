@@ -5,8 +5,8 @@ features:
   gpu: true
 
 aliases:
-  run_alphafold.py: python3 /app/alphafold3/run_alphafold.py
-  run_alphafold_test.py: python3 /app/alphafold3/run_alphafold_test.py
+  run_alphafold.py: python3 /app/alphafold/run_alphafold.py
+  run_alphafold_test.py: python3 /app/alphafold/run_alphafold_test.py
   run_alphafold_data_test.py: python3 run_alphafold_data_test.py
   python3: /opt/alphafold3_env/bin/python3
   
