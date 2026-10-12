@@ -24,3 +24,18 @@ tags:
   4.2.6--pyhdfd78af_0: 
     sha256:c06f80ecf8097ea1df8763d50e39da850d647ec0dcab82328443e1d860482505
 docker: quay.io/biocontainers/metaphlan
+aliases:
+  metaphlan: /usr/local/bin/metaphlan
+  bowtie2: /usr/local/bin/bowtie2
+  add_metadata_tree.py: /usr/local/bin/add_metadata_tree.py
+  consensus.py: /usr/local/bin/consensus.py
+  consensus_aDNA.py: /usr/local/bin/consensus_aDNA.py
+  create_toy_database.py: /usr/local/bin/create_toy_database.py
+  extract_markers.py: /usr/local/bin/extract_markers.py
+  fix_relab_mpa4.py: /usr/local/bin/fix_relab_mpa4.py
+  merge_metaphlan_tables.py: /usr/local/bin/merge_metaphlan_tables.py
+  merge_vsc_tables.py: /usr/local/bin/merge_vsc_tables.py
+  metaphlan2krona.py: /usr/local/bin/metaphlan2krona.py
+  plot_tree_graphlan.py: /usr/local/bin/plot_tree_graphlan.py
+  sample2markers.py: /usr/local/bin/sample2markers.py
+  sgb_to_gtdb_profile.py: /usr/local/bin/sgb_to_gtdb_profile.py
