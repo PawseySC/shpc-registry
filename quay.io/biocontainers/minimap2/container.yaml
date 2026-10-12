@@ -40,3 +40,8 @@ tags:
   2.31--h118bc1c_0: 
     sha256:f7e4a9a17912eea542500988ee96013e37a887b3746673636f2773cc81052590
 docker: quay.io/biocontainers/minimap2
+aliases:
+  k8: /usr/local/bin/k8
+  minimap2: /usr/local/bin/minimap2
+  paftools.js: /usr/local/bin/paftools.js
+  sdust: /usr/local/bin/sdust 
