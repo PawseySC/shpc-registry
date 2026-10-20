@@ -166,6 +166,9 @@ tool to generate a contributors graphic below.
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/georgiesamaha"><img src="https://avatars.githubusercontent.com/u/73086054?v=4?s=100" width="100px;" alt="Georgie Samaha"/><br /><sub><b>Georgie Samaha</b></sub></a><br /><a href="https://github.com/singularityhub/shpc-registry/commits?author=georgiesamaha" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/HasseJohansen"><img src="https://avatars.githubusercontent.com/u/8741977?v=4?s=100" width="100px;" alt="Hasse Hagen Johansen"/><br /><sub><b>Hasse Hagen Johansen</b></sub></a><br /><a href="https://github.com/singularityhub/shpc-registry/commits?author=HasseJohansen" title="Code">💻</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><img src="?s=100" width="100px;" alt="Craig Meyer"/><br /><sub><b>Craig Meyer</b></sub><br /><a href="https://github.com/singularityhub/shpc-registry/commits?author=craigmeyer" title="Code">💻</a></td>
+    </tr>
   </tbody>
 </table>
 
