@@ -1,63 +1,4 @@
 aliases:
-  DPMFoam: /opt/OpenFOAM/OpenFOAM-10/bin/DPMFoam
-  MPPICFoam: /opt/OpenFOAM/OpenFOAM-10/bin/MPPICFoam
-  XiEngineFoam: /opt/OpenFOAM/OpenFOAM-10/bin/XiEngineFoam
-  buoyantPimpleFoam: /opt/OpenFOAM/OpenFOAM-10/bin/buoyantPimpleFoam
-  buoyantReactingParticleFoam: /opt/OpenFOAM/OpenFOAM-10/bin/buoyantReactingParticleFoam
-  buoyantSimpleFoam: /opt/OpenFOAM/OpenFOAM-10/bin/buoyantSimpleFoam
-  coalChemistryFoam: /opt/OpenFOAM/OpenFOAM-10/bin/coalChemistryFoam
-  coldEngineFoam: /opt/OpenFOAM/OpenFOAM-10/bin/coldEngineFoam
-  compressibleInterFilmFoam: /opt/OpenFOAM/OpenFOAM-10/bin/compressibleInterFilmFoam
-  engineFoam: /opt/OpenFOAM/OpenFOAM-10/bin/engineFoam
-  fireFoam: /opt/OpenFOAM/OpenFOAM-10/bin/fireFoam
-  foamCleanCase: /opt/OpenFOAM/OpenFOAM-10/bin/foamCleanCase
-  foamCleanPath: /opt/OpenFOAM/OpenFOAM-10/bin/foamCleanPath
-  foamCleanTutorials: /opt/OpenFOAM/OpenFOAM-10/bin/foamCleanTutorials
-  foamCloneCase: /opt/OpenFOAM/OpenFOAM-10/bin/foamCloneCase
-  foamCreateVideo: /opt/OpenFOAM/OpenFOAM-10/bin/foamCreateVideo
-  foamEtcFile: /opt/OpenFOAM/OpenFOAM-10/bin/foamEtcFile
-  foamExec: /opt/OpenFOAM/OpenFOAM-10/bin/foamExec
-  foamGet: /opt/OpenFOAM/OpenFOAM-10/bin/foamGet
-  foamInfo: /opt/OpenFOAM/OpenFOAM-10/bin/foamInfo
-  foamJob: /opt/OpenFOAM/OpenFOAM-10/bin/foamJob
-  foamLog: /opt/OpenFOAM/OpenFOAM-10/bin/foamLog
-  foamMonitor: /opt/OpenFOAM/OpenFOAM-10/bin/foamMonitor
-  foamNew: /opt/OpenFOAM/OpenFOAM-10/bin/foamNew
-  foamNewApp: /opt/OpenFOAM/OpenFOAM-10/bin/foamNewApp
-  foamNewBC: /opt/OpenFOAM/OpenFOAM-10/bin/foamNewBC
-  foamNewFunctionObject: /opt/OpenFOAM/OpenFOAM-10/bin/foamNewFunctionObject
-  foamNewSource: /opt/OpenFOAM/OpenFOAM-10/bin/foamNewSource
-  foamNewTemplate: /opt/OpenFOAM/OpenFOAM-10/bin/foamNewTemplate
-  foamRunTutorials: /opt/OpenFOAM/OpenFOAM-10/bin/foamRunTutorials
-  foamSearch: /opt/OpenFOAM/OpenFOAM-10/bin/foamSearch
-  foamSequenceVTKFiles: /opt/OpenFOAM/OpenFOAM-10/bin/foamSequenceVTKFiles
-  foamTags: /opt/OpenFOAM/OpenFOAM-10/bin/foamTags
-  icoUncoupledKinematicParcelFoam: /opt/OpenFOAM/OpenFOAM-10/bin/icoUncoupledKinematicParcelFoam
-  interPhaseChangeFoam: /opt/OpenFOAM/OpenFOAM-10/bin/interPhaseChangeFoam
-  mergeOrSplitBaffles: /opt/OpenFOAM/OpenFOAM-10/bin/mergeOrSplitBaffles
-  moveDynamicMesh: /opt/OpenFOAM/OpenFOAM-10/bin/moveDynamicMesh
-  mpirunDebug: /opt/OpenFOAM/OpenFOAM-10/bin/mpirunDebug
-  org-html: /opt/OpenFOAM/OpenFOAM-10/bin/org-html
-  org-latex: /opt/OpenFOAM/OpenFOAM-10/bin/org-latex
-  org-pdflatex: /opt/OpenFOAM/OpenFOAM-10/bin/org-pdflatex
-  paraFoam: /opt/OpenFOAM/OpenFOAM-10/bin/paraFoam
-  reactingMultiphaseEulerFoam: /opt/OpenFOAM/OpenFOAM-10/bin/reactingMultiphaseEulerFoam
-  reactingParcelFoam: /opt/OpenFOAM/OpenFOAM-10/bin/reactingParcelFoam
-  reactingParticleFoam: /opt/OpenFOAM/OpenFOAM-10/bin/reactingParticleFoam
-  reactingTwoPhaseEulerFoam: /opt/OpenFOAM/OpenFOAM-10/bin/reactingTwoPhaseEulerFoam
-  rhoReactingBuoyantFoam: /opt/OpenFOAM/OpenFOAM-10/bin/rhoReactingBuoyantFoam
-  rhoReactingFoam: /opt/OpenFOAM/OpenFOAM-10/bin/rhoReactingFoam
-  simpleReactingParcelFoam: /opt/OpenFOAM/OpenFOAM-10/bin/simpleReactingParcelFoam
-  simpleReactingParticleFoam: /opt/OpenFOAM/OpenFOAM-10/bin/simpleReactingParticleFoam
-  sprayFoam: /opt/OpenFOAM/OpenFOAM-10/bin/sprayFoam
-  surfaceFeatureExtract: /opt/OpenFOAM/OpenFOAM-10/bin/surfaceFeatureExtract
-  twoPhaseEulerFoam: /opt/OpenFOAM/OpenFOAM-10/bin/twoPhaseEulerFoam
-  uncoupledKinematicParcelFoam: /opt/OpenFOAM/OpenFOAM-10/bin/uncoupledKinematicParcelFoam
-  PDRFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/PDRFoam
-  PDRMesh: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/PDRMesh
-  SRFPimpleFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/SRFPimpleFoam
-  SRFSimpleFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/SRFSimpleFoam
-  XiFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/XiFoam
   adiabaticFlameT: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/adiabaticFlameT
   adjointShapeOptimisationFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/adjointShapeOptimisationFoam
   ansysToFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/ansysToFoam
@@ -69,7 +10,10 @@ aliases:
   boundaryFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/boundaryFoam
   boxTurb: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/boxTurb
   buoyantFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/buoyantFoam
+  buoyantPimpleFoam: /opt/OpenFOAM/OpenFOAM-10/bin/buoyantPimpleFoam
   buoyantReactingFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/buoyantReactingFoam
+  buoyantReactingParticleFoam: /opt/OpenFOAM/OpenFOAM-10/bin/buoyantReactingParticleFoam
+  buoyantSimpleFoam: /opt/OpenFOAM/OpenFOAM-10/bin/buoyantSimpleFoam
   cavitatingFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/cavitatingFoam
   cfx4ToFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/cfx4ToFoam
   changeDictionary: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/changeDictionary
@@ -77,8 +21,11 @@ aliases:
   chemFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/chemFoam
   chemkinToFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/chemkinToFoam
   chtMultiRegionFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/chtMultiRegionFoam
+  coalChemistryFoam: /opt/OpenFOAM/OpenFOAM-10/bin/coalChemistryFoam
+  coldEngineFoam: /opt/OpenFOAM/OpenFOAM-10/bin/coldEngineFoam
   collapseEdges: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/collapseEdges
   combinePatchFaces: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/combinePatchFaces
+  compressibleInterFilmFoam: /opt/OpenFOAM/OpenFOAM-10/bin/compressibleInterFilmFoam
   compressibleInterFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/compressibleInterFoam
   compressibleMultiphaseInterFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/compressibleMultiphaseInterFoam
   createBaffles: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/createBaffles
@@ -90,11 +37,13 @@ aliases:
   deformedGeom: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/deformedGeom
   denseParticleFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/denseParticleFoam
   dnsFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/dnsFoam
+  DPMFoam: /opt/OpenFOAM/OpenFOAM-10/bin/DPMFoam
   driftFluxFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/driftFluxFoam
   dsmcFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/dsmcFoam
   dsmcInitialise: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/dsmcInitialise
   electrostaticFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/electrostaticFoam
   engineCompRatio: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/engineCompRatio
+  engineFoam: /opt/OpenFOAM/OpenFOAM-10/bin/engineFoam
   engineSwirl: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/engineSwirl
   equilibriumCO: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/equilibriumCO
   equilibriumFlameT: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/equilibriumFlameT
@@ -103,15 +52,38 @@ aliases:
   extrudeToRegionMesh: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/extrudeToRegionMesh
   faceAgglomerate: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/faceAgglomerate
   financialFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/financialFoam
+  fireFoam: /opt/OpenFOAM/OpenFOAM-10/bin/fireFoam
   flattenMesh: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/flattenMesh
   fluent3DMeshToFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/fluent3DMeshToFoam
   fluentMeshToFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/fluentMeshToFoam
+  foamCleanCase: /opt/OpenFOAM/OpenFOAM-10/bin/foamCleanCase
+  foamCleanPath: /opt/OpenFOAM/OpenFOAM-10/bin/foamCleanPath
+  foamCleanTutorials: /opt/OpenFOAM/OpenFOAM-10/bin/foamCleanTutorials
+  foamCloneCase: /opt/OpenFOAM/OpenFOAM-10/bin/foamCloneCase
+  foamCreateVideo: /opt/OpenFOAM/OpenFOAM-10/bin/foamCreateVideo
   foamDataToFluent: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/foamDataToFluent
   foamDictionary: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/foamDictionary
+  foamEtcFile: /opt/OpenFOAM/OpenFOAM-10/bin/foamEtcFile
+  foamExec: /opt/OpenFOAM/OpenFOAM-10/bin/foamExec
   foamFormatConvert: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/foamFormatConvert
+  foamGet: /opt/OpenFOAM/OpenFOAM-10/bin/foamGet
+  foamInfo: /opt/OpenFOAM/OpenFOAM-10/bin/foamInfo
+  foamJob: /opt/OpenFOAM/OpenFOAM-10/bin/foamJob
   foamListTimes: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/foamListTimes
+  foamLog: /opt/OpenFOAM/OpenFOAM-10/bin/foamLog
   foamMeshToFluent: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/foamMeshToFluent
+  foamMonitor: /opt/OpenFOAM/OpenFOAM-10/bin/foamMonitor
+  foamNew: /opt/OpenFOAM/OpenFOAM-10/bin/foamNew
+  foamNewApp: /opt/OpenFOAM/OpenFOAM-10/bin/foamNewApp
+  foamNewBC: /opt/OpenFOAM/OpenFOAM-10/bin/foamNewBC
+  foamNewFunctionObject: /opt/OpenFOAM/OpenFOAM-10/bin/foamNewFunctionObject
+  foamNewSource: /opt/OpenFOAM/OpenFOAM-10/bin/foamNewSource
+  foamNewTemplate: /opt/OpenFOAM/OpenFOAM-10/bin/foamNewTemplate
+  foamRunTutorials: /opt/OpenFOAM/OpenFOAM-10/bin/foamRunTutorials
+  foamSearch: /opt/OpenFOAM/OpenFOAM-10/bin/foamSearch
+  foamSequenceVTKFiles: /opt/OpenFOAM/OpenFOAM-10/bin/foamSequenceVTKFiles
   foamSetupCHT: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/foamSetupCHT
+  foamTags: /opt/OpenFOAM/OpenFOAM-10/bin/foamTags
   foamToEnsight: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/foamToEnsight
   foamToEnsightParts: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/foamToEnsightParts
   foamToGMV: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/foamToGMV
@@ -122,10 +94,12 @@ aliases:
   gambitToFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/gambitToFoam
   gmshToFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/gmshToFoam
   icoFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/icoFoam
+  icoUncoupledKinematicParcelFoam: /opt/OpenFOAM/OpenFOAM-10/bin/icoUncoupledKinematicParcelFoam
   ideasUnvToFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/ideasUnvToFoam
   insideCells: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/insideCells
   interFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/interFoam
   interMixingFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/interMixingFoam
+  interPhaseChangeFoam: /opt/OpenFOAM/OpenFOAM-10/bin/interPhaseChangeFoam
   kivaToFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/kivaToFoam
   laplacianFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/laplacianFoam
   magneticFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/magneticFoam
@@ -136,22 +110,32 @@ aliases:
   mdInitialise: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/mdInitialise
   mergeBaffles: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/mergeBaffles
   mergeMeshes: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/mergeMeshes
+  mergeOrSplitBaffles: /opt/OpenFOAM/OpenFOAM-10/bin/mergeOrSplitBaffles
   mhdFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/mhdFoam
   mirrorMesh: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/mirrorMesh
   mixtureAdiabaticFlameT: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/mixtureAdiabaticFlameT
   modifyMesh: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/modifyMesh
+  moveDynamicMesh: /opt/OpenFOAM/OpenFOAM-10/bin/moveDynamicMesh
   moveMesh: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/moveMesh
+  mpirunDebug: /opt/OpenFOAM/OpenFOAM-10/bin/mpirunDebug
+  MPPICFoam: /opt/OpenFOAM/OpenFOAM-10/bin/MPPICFoam
   mshToFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/mshToFoam
   multiphaseEulerFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/multiphaseEulerFoam
   multiphaseInterFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/multiphaseInterFoam
   netgenNeutralToFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/netgenNeutralToFoam
   noise: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/noise
   objToVTK: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/objToVTK
+  org-html: /opt/OpenFOAM/OpenFOAM-10/bin/org-html
+  org-latex: /opt/OpenFOAM/OpenFOAM-10/bin/org-latex
+  org-pdflatex: /opt/OpenFOAM/OpenFOAM-10/bin/org-pdflatex
   orientFaceZone: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/orientFaceZone
+  paraFoam: /opt/OpenFOAM/OpenFOAM-10/bin/paraFoam
   particleFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/particleFoam
   particleTracks: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/particleTracks
   patchSummary: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/patchSummary
   pdfPlot: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/pdfPlot
+  PDRFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/PDRFoam
+  PDRMesh: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/PDRMesh
   pimpleFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/pimpleFoam
   pisoFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/pisoFoam
   plot3dToFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/plot3dToFoam
@@ -161,19 +145,25 @@ aliases:
   potentialFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/potentialFoam
   potentialFreeSurfaceFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/potentialFreeSurfaceFoam
   reactingFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/reactingFoam
+  reactingMultiphaseEulerFoam: /opt/OpenFOAM/OpenFOAM-10/bin/reactingMultiphaseEulerFoam
+  reactingParcelFoam: /opt/OpenFOAM/OpenFOAM-10/bin/reactingParcelFoam
+  reactingParticleFoam: /opt/OpenFOAM/OpenFOAM-10/bin/reactingParticleFoam
+  reactingTwoPhaseEulerFoam: /opt/OpenFOAM/OpenFOAM-10/bin/reactingTwoPhaseEulerFoam
   reconstructPar: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/reconstructPar
   reconstructParMesh: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/reconstructParMesh
   redistributePar: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/redistributePar
   refineHexMesh: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/refineHexMesh
+  refinementLevel: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/refinementLevel
   refineMesh: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/refineMesh
   refineWallLayer: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/refineWallLayer
-  refinementLevel: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/refinementLevel
   removeFaces: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/removeFaces
   renumberMesh: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/renumberMesh
   rhoCentralFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/rhoCentralFoam
   rhoParticleFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/rhoParticleFoam
   rhoPimpleFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/rhoPimpleFoam
   rhoPorousSimpleFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/rhoPorousSimpleFoam
+  rhoReactingBuoyantFoam: /opt/OpenFOAM/OpenFOAM-10/bin/rhoReactingBuoyantFoam
+  rhoReactingFoam: /opt/OpenFOAM/OpenFOAM-10/bin/rhoReactingFoam
   rhoSimpleFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/rhoSimpleFoam
   rotateMesh: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/rotateMesh
   sammToFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/sammToFoam
@@ -181,10 +171,12 @@ aliases:
   selectCells: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/selectCells
   setAtmBoundaryLayer: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/setAtmBoundaryLayer
   setFields: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/setFields
-  setWaves: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/setWaves
   setsToZones: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/setsToZones
+  setWaves: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/setWaves
   shallowWaterFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/shallowWaterFoam
   simpleFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/simpleFoam
+  simpleReactingParcelFoam: /opt/OpenFOAM/OpenFOAM-10/bin/simpleReactingParcelFoam
+  simpleReactingParticleFoam: /opt/OpenFOAM/OpenFOAM-10/bin/simpleReactingParticleFoam
   singleCellMesh: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/singleCellMesh
   smapToFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/smapToFoam
   snappyHexMesh: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/snappyHexMesh
@@ -194,6 +186,9 @@ aliases:
   splitCells: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/splitCells
   splitMesh: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/splitMesh
   splitMeshRegions: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/splitMeshRegions
+  sprayFoam: /opt/OpenFOAM/OpenFOAM-10/bin/sprayFoam
+  SRFPimpleFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/SRFPimpleFoam
+  SRFSimpleFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/SRFSimpleFoam
   star3ToFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/star3ToFoam
   star4ToFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/star4ToFoam
   steadyParticleTracks: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/steadyParticleTracks
@@ -207,6 +202,7 @@ aliases:
   surfaceCoarsen: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/surfaceCoarsen
   surfaceConvert: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/surfaceConvert
   surfaceFeatureConvert: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/surfaceFeatureConvert
+  surfaceFeatureExtract: /opt/OpenFOAM/OpenFOAM-10/bin/surfaceFeatureExtract
   surfaceFeatures: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/surfaceFeatures
   surfaceFind: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/surfaceFind
   surfaceHookUp: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/surfaceHookUp
@@ -234,7 +230,11 @@ aliases:
   topoSet: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/topoSet
   transformPoints: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/transformPoints
   twoLiquidMixingFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/twoLiquidMixingFoam
+  twoPhaseEulerFoam: /opt/OpenFOAM/OpenFOAM-10/bin/twoPhaseEulerFoam
+  uncoupledKinematicParcelFoam: /opt/OpenFOAM/OpenFOAM-10/bin/uncoupledKinematicParcelFoam
   viewFactorsGen: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/viewFactorsGen
   vtkUnstructuredToFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/vtkUnstructuredToFoam
   writeMeshObj: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/writeMeshObj
+  XiEngineFoam: /opt/OpenFOAM/OpenFOAM-10/bin/XiEngineFoam
+  XiFoam: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/XiFoam
   zipUpMesh: /opt/OpenFOAM/OpenFOAM-10/platforms/linux64GccDPInt32Opt/bin/zipUpMesh
