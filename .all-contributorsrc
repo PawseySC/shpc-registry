@@ -163,6 +163,28 @@
             "avatar_url": [
                 "https://avatars.githubusercontent.com/u/8741977?v=4"
             ]
+        },
+        {
+            "login": "ddeeptimahanti",
+            "name": "ddeeptimahanti",
+            "contributions": [
+                "code"
+            ],
+            "profile": null,
+            "avatar_url": [
+                null
+            ]
+        },
+        {
+            "login": "craigmeyer",
+            "name": "Craig Meyer",
+            "contributions": [
+                "code"
+            ],
+            "profile": null,
+            "avatar_url": [
+                null
+            ]
         }
     ],
     "contributorsPerLine": 7
