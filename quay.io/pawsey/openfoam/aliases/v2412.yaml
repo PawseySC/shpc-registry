@@ -1,49 +1,4 @@
 aliases:
-  foamCheckJobs: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamCheckJobs
-  foamCleanPath: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamCleanPath
-  foamCleanPolyMesh: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamCleanPolyMesh
-  foamCleanTutorials: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamCleanTutorials
-  foamCloneCase: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamCloneCase
-  foamCopySettings: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamCopySettings
-  foamCreateVideo: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamCreateVideo
-  foamEndJob: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamEndJob
-  foamEtcFile: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamEtcFile
-  foamGetDict: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamGetDict
-  foamInstallationTest: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamInstallationTest
-  foamJob: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamJob
-  foamLog: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamLog
-  foamMonitor: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamMonitor
-  foamNew: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamNew
-  foamNewApp: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamNewApp
-  foamNewBC: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamNewBC
-  foamNewCase: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamNewCase
-  foamNewFunctionObject: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamNewFunctionObject
-  foamNewSource: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamNewSource
-  foamNewTemplate: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamNewTemplate
-  foamPrintJobs: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamPrintJobs
-  foamRunTutorials: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamRunTutorials
-  foamSearch: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamSearch
-  foamSequenceVTKFiles: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamSequenceVTKFiles
-  foamSolverSweeps: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamSolverSweeps
-  foamSystemCheck: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamSystemCheck
-  foamTestTutorial: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamTestTutorial
-  foamUpgradeFiniteArea: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamUpgradeFiniteArea
-  mpirunDebug: /opt/OpenFOAM/OpenFOAM-v2412/bin/mpirunDebug
-  paraFoam: /opt/OpenFOAM/OpenFOAM-v2412/bin/paraFoam
-  DPMDyMFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/DPMDyMFoam
-  DPMFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/DPMFoam
-  MPPICDyMFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/MPPICDyMFoam
-  MPPICFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/MPPICFoam
-  MPPICInterFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/MPPICInterFoam
-  PDRFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/PDRFoam
-  PDRMesh: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/PDRMesh
-  PDRblockMesh: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/PDRblockMesh
-  PDRsetFields: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/PDRsetFields
-  SRFPimpleFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/SRFPimpleFoam
-  SRFSimpleFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/SRFSimpleFoam
-  XiDyMFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/XiDyMFoam
-  XiEngineFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/XiEngineFoam
-  XiFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/XiFoam
   acousticFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/acousticFoam
   adiabaticFlameT: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/adiabaticFlameT
   adjointOptimisationFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/adjointOptimisationFoam
@@ -97,6 +52,8 @@ aliases:
   denseAGFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/denseAGFoam
   diluteVdfTransportFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/diluteVdfTransportFoam
   dnsFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/dnsFoam
+  DPMDyMFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/DPMDyMFoam
+  DPMFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/DPMFoam
   driftFluxFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/driftFluxFoam
   dsmcFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/dsmcFoam
   dsmcInitialise: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/dsmcInitialise
@@ -118,15 +75,43 @@ aliases:
   flattenMesh: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/flattenMesh
   fluent3DMeshToFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/fluent3DMeshToFoam
   fluentMeshToFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/fluentMeshToFoam
+  foamCheckJobs: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamCheckJobs
+  foamCleanPath: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamCleanPath
+  foamCleanPolyMesh: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamCleanPolyMesh
+  foamCleanTutorials: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamCleanTutorials
+  foamCloneCase: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamCloneCase
+  foamCopySettings: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamCopySettings
+  foamCreateVideo: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamCreateVideo
   foamDataToFluent: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/foamDataToFluent
   foamDictionary: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/foamDictionary
+  foamEndJob: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamEndJob
+  foamEtcFile: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamEtcFile
   foamFormatConvert: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/foamFormatConvert
+  foamGetDict: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamGetDict
   foamHasLibrary: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/foamHasLibrary
   foamHelp: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/foamHelp
+  foamInstallationTest: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamInstallationTest
+  foamJob: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamJob
   foamListRegions: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/foamListRegions
   foamListTimes: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/foamListTimes
+  foamLog: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamLog
   foamMeshToFluent: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/foamMeshToFluent
+  foamMonitor: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamMonitor
+  foamNew: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamNew
+  foamNewApp: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamNewApp
+  foamNewBC: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamNewBC
+  foamNewCase: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamNewCase
+  foamNewFunctionObject: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamNewFunctionObject
+  foamNewSource: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamNewSource
+  foamNewTemplate: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamNewTemplate
+  foamPrintJobs: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamPrintJobs
   foamRestoreFields: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/foamRestoreFields
+  foamRunTutorials: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamRunTutorials
+  foamSearch: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamSearch
+  foamSequenceVTKFiles: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamSequenceVTKFiles
+  foamSolverSweeps: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamSolverSweeps
+  foamSystemCheck: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamSystemCheck
+  foamTestTutorial: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamTestTutorial
   foamToEnsight: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/foamToEnsight
   foamToFireMesh: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/foamToFireMesh
   foamToGMV: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/foamToGMV
@@ -135,6 +120,7 @@ aliases:
   foamToTetDualMesh: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/foamToTetDualMesh
   foamToVTK: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/foamToVTK
   foamUpgradeCyclics: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/foamUpgradeCyclics
+  foamUpgradeFiniteArea: /opt/OpenFOAM/OpenFOAM-v2412/bin/foamUpgradeFiniteArea
   foamyHexMesh: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/foamyHexMesh
   foamyQuadMesh: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/foamyQuadMesh
   gambitToFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/gambitToFoam
@@ -177,6 +163,10 @@ aliases:
   moveDynamicMesh: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/moveDynamicMesh
   moveEngineMesh: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/moveEngineMesh
   moveMesh: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/moveMesh
+  mpirunDebug: /opt/OpenFOAM/OpenFOAM-v2412/bin/mpirunDebug
+  MPPICDyMFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/MPPICDyMFoam
+  MPPICFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/MPPICFoam
+  MPPICInterFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/MPPICInterFoam
   mshToFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/mshToFoam
   multiphaseEulerFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/multiphaseEulerFoam
   multiphaseInterFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/multiphaseInterFoam
@@ -196,16 +186,21 @@ aliases:
   overRhoPimpleDyMFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/overRhoPimpleDyMFoam
   overRhoSimpleFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/overRhoSimpleFoam
   overSimpleFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/overSimpleFoam
+  paraFoam: /opt/OpenFOAM/OpenFOAM-v2412/bin/paraFoam
   particleTracks: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/particleTracks
   patchSummary: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/patchSummary
   pbeFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/pbeFoam
   pbeTransportFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/pbeTransportFoam
   pdfPlot: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/pdfPlot
+  PDRblockMesh: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/PDRblockMesh
+  PDRFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/PDRFoam
+  PDRMesh: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/PDRMesh
+  PDRsetFields: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/PDRsetFields
   pimpleFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/pimpleFoam
   pisoFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/pisoFoam
   plot3dToFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/plot3dToFoam
-  polyDualMesh: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/polyDualMesh
   polydisperseBubbleFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/polydisperseBubbleFoam
+  polyDualMesh: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/polyDualMesh
   porousSimpleFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/porousSimpleFoam
   postChannel: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/postChannel
   postProcess: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/postProcess
@@ -223,9 +218,9 @@ aliases:
   reconstructPointDistribution: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/reconstructPointDistribution
   redistributePar: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/redistributePar
   refineHexMesh: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/refineHexMesh
+  refinementLevel: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/refinementLevel
   refineMesh: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/refineMesh
   refineWallLayer: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/refineWallLayer
-  refinementLevel: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/refinementLevel
   removeFaces: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/removeFaces
   renumberMesh: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/renumberMesh
   rhoCentralFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/rhoCentralFoam
@@ -243,8 +238,8 @@ aliases:
   setExprFields: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/setExprFields
   setFields: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/setFields
   setSet: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/setSet
-  setTurbulenceFields: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/setTurbulenceFields
   setsToZones: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/setsToZones
+  setTurbulenceFields: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/setTurbulenceFields
   shallowWaterFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/shallowWaterFoam
   simpleCoalParcelFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/simpleCoalParcelFoam
   simpleFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/simpleFoam
@@ -267,6 +262,8 @@ aliases:
   splitMeshRegions: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/splitMeshRegions
   sprayDyMFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/sprayDyMFoam
   sprayFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/sprayFoam
+  SRFPimpleFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/SRFPimpleFoam
+  SRFSimpleFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/SRFSimpleFoam
   star4ToFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/star4ToFoam
   steadyParticleTracks: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/steadyParticleTracks
   stitchMesh: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/stitchMesh
@@ -316,4 +313,7 @@ aliases:
   wallFunctionTable: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/wallFunctionTable
   writeMeshObj: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/writeMeshObj
   writeMorpherCPs: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/writeMorpherCPs
+  XiDyMFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/XiDyMFoam
+  XiEngineFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/XiEngineFoam
+  XiFoam: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/XiFoam
   zipUpMesh: /opt/OpenFOAM/OpenFOAM-v2412/platforms/linux64GccDPInt32Opt/bin/zipUpMesh
